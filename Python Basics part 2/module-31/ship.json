@@ -1,0 +1,127 @@
+{
+    "name": "Millennium Falcon",
+    "model": "YT-1300 light freighter",
+    "manufacturer": "Corellian Engineering Corporation",
+    "cost_in_credits": "100000",
+    "length": "34.37",
+    "max_atmosphering_speed": "1050",
+    "crew": "4",
+    "passengers": "6",
+    "cargo_capacity": "100000",
+    "consumables": "2 months",
+    "hyperdrive_rating": "0.5",
+    "MGLT": "75",
+    "starship_class": "Light freighter",
+    "pilots": [
+        {
+            "name": "Chewbacca",
+            "height": "228",
+            "mass": "112",
+            "hair_color": "brown",
+            "skin_color": "unknown",
+            "eye_color": "blue",
+            "birth_year": "200BBY",
+            "gender": "male",
+            "homeworld": "https://swapi.dev/api/planets/14/",
+            "films": [
+                "https://swapi.dev/api/films/1/",
+                "https://swapi.dev/api/films/2/",
+                "https://swapi.dev/api/films/3/",
+                "https://swapi.dev/api/films/6/"
+            ],
+            "species": [
+                "https://swapi.dev/api/species/3/"
+            ],
+            "vehicles": [
+                "https://swapi.dev/api/vehicles/19/"
+            ],
+            "starships": [
+                "https://swapi.dev/api/starships/10/",
+                "https://swapi.dev/api/starships/22/"
+            ],
+            "created": "2014-12-10T16:42:45.066000Z",
+            "edited": "2014-12-20T21:17:50.332000Z",
+            "url": "https://swapi.dev/api/people/13/"
+        },
+        {
+            "name": "Han Solo",
+            "height": "180",
+            "mass": "80",
+            "hair_color": "brown",
+            "skin_color": "fair",
+            "eye_color": "brown",
+            "birth_year": "29BBY",
+            "gender": "male",
+            "homeworld": "https://swapi.dev/api/planets/22/",
+            "films": [
+                "https://swapi.dev/api/films/1/",
+                "https://swapi.dev/api/films/2/",
+                "https://swapi.dev/api/films/3/"
+            ],
+            "species": [],
+            "vehicles": [],
+            "starships": [
+                "https://swapi.dev/api/starships/10/",
+                "https://swapi.dev/api/starships/22/"
+            ],
+            "created": "2014-12-10T16:49:14.582000Z",
+            "edited": "2014-12-20T21:17:50.334000Z",
+            "url": "https://swapi.dev/api/people/14/"
+        },
+        {
+            "name": "Lando Calrissian",
+            "height": "177",
+            "mass": "79",
+            "hair_color": "black",
+            "skin_color": "dark",
+            "eye_color": "brown",
+            "birth_year": "31BBY",
+            "gender": "male",
+            "homeworld": "https://swapi.dev/api/planets/30/",
+            "films": [
+                "https://swapi.dev/api/films/2/",
+                "https://swapi.dev/api/films/3/"
+            ],
+            "species": [],
+            "vehicles": [],
+            "starships": [
+                "https://swapi.dev/api/starships/10/"
+            ],
+            "created": "2014-12-15T12:56:32.683000Z",
+            "edited": "2014-12-20T21:17:50.357000Z",
+            "url": "https://swapi.dev/api/people/25/"
+        },
+        {
+            "name": "Nien Nunb",
+            "height": "160",
+            "mass": "68",
+            "hair_color": "none",
+            "skin_color": "grey",
+            "eye_color": "black",
+            "birth_year": "unknown",
+            "gender": "male",
+            "homeworld": "https://swapi.dev/api/planets/33/",
+            "films": [
+                "https://swapi.dev/api/films/3/"
+            ],
+            "species": [
+                "https://swapi.dev/api/species/10/"
+            ],
+            "vehicles": [],
+            "starships": [
+                "https://swapi.dev/api/starships/10/"
+            ],
+            "created": "2014-12-18T11:26:18.541000Z",
+            "edited": "2014-12-20T21:17:50.371000Z",
+            "url": "https://swapi.dev/api/people/31/"
+        }
+    ],
+    "films": [
+        "https://swapi.dev/api/films/1/",
+        "https://swapi.dev/api/films/2/",
+        "https://swapi.dev/api/films/3/"
+    ],
+    "created": "2014-12-10T16:59:45.094000Z",
+    "edited": "2014-12-20T21:23:49.880000Z",
+    "url": "https://swapi.dev/api/starships/10/"
+}
