@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      {% block title %}
+        Base title
+      {% endblock %}
+    </title>
+</head>
+<body>
+{% block body %}
+  Base body
+{% endblock %}
+<div>
+    {% now 'H:i' as curr_time%}
+    Time: {{curr_time}}
+</div>
+
+<div>
+    {% now 'l' as cur_wd%}
+    Today is {{cur_wd}}
+</div>
+
+</body>
+</html>

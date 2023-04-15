@@ -1,0 +1,42 @@
+{% extends 'requestdataapp/base.html' %}
+
+{% block title %}
+    User BIO
+{% endblock  %}
+
+
+{% block body %}
+    <h1>User form</h1>
+    <div>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+    </div>
+
+    {% if request.POST %}
+    <div>
+        <h2>Previous form data</h2>
+        <table>
+            <tr>
+                <td>Full name:</td>
+                <td>{{ request.POST.name  }}</td>
+            </tr>
+            
+            <tr>
+                <td>Age:</td>
+                <td>{{ request.POST.age  }}</td>
+            </tr>
+
+            <tr>
+                <td>Bio:</td>
+                <td>
+                   <p>{{ request.POST.bio|linebreaks  }}</p> 
+                </td>
+            </tr>
+    </div>
+    {% endif %}
+{% endblock  %}

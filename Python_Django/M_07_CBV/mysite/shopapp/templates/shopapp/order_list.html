@@ -1,0 +1,28 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+Orders list
+{% endblock  %}
+
+{% block body %}
+    {% if object_list %}
+    <h1>Orders:</h1>
+        <div>
+            {% for ord in object_list %}
+                <div>
+                    <p> <a href="{% url 'shopapp:order_details' pk=ord.pk %}">Order №{{ord.pk}}</a></p>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <h3>Not orders yet</h3>
+    {% endif %}
+
+    <div>
+        <br>
+        <a href="{% url 'shopapp:create_order' %}">
+            Create new order
+        </a>
+    </div>
+    
+{% endblock  %}
