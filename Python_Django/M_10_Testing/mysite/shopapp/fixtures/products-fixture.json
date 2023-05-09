@@ -1,0 +1,26 @@
+[
+    {
+        "model": "shopapp.product",
+        "pk": 2,
+        "fields": {
+            "name": "Tablet",
+            "description": "best",
+            "price": "699.00",
+            "discount": 4,
+            "created_at": "2023-04-28T16:20:17.033Z",
+            "archived": false
+        }
+    },
+    {
+        "model": "shopapp.product",
+        "pk": 3,
+        "fields": {
+            "name": "Smartphone",
+            "description": "",
+            "price": "499.00",
+            "discount": 0,
+            "created_at": "2023-04-28T16:22:13.225Z",
+            "archived": false
+        }
+    }
+]

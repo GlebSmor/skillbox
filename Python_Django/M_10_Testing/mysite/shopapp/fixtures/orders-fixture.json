@@ -1,0 +1,43 @@
+[
+    {
+        "model": "shopapp.order",
+        "pk": 1,
+        "fields": {
+            "delivery_address": "ul pushkina d.6",
+            "promocode": "saLES12",
+            "created_at": "2023-04-29T11:16:35.743Z",
+            "user": 4,
+            "products": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "shopapp.order",
+        "pk": 2,
+        "fields": {
+            "delivery_address": "red square 5",
+            "promocode": "",
+            "created_at": "2023-04-29T11:28:38.423Z",
+            "user": 6,
+            "products": [
+                3,
+                2
+            ]
+        }
+    },
+    {
+        "model": "shopapp.order",
+        "pk": 3,
+        "fields": {
+            "delivery_address": "",
+            "promocode": "",
+            "created_at": "2023-04-29T17:07:04.556Z",
+            "user": 6,
+            "products": [
+                3,
+                2
+            ]
+        }
+    }
+]

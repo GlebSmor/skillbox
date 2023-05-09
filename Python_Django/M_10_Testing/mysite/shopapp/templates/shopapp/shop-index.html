@@ -1,0 +1,22 @@
+{% extends 'shopapp/base.html' %}
+
+{% block title %}
+  Shop Index
+{% endblock %}
+
+
+{% block body %}
+  <h1>Hello Shop Index!</h1>
+
+  <div>
+    <ul>
+      <li>
+        <a href="{% url 'shopapp:products_list' %}">Products</a>
+      </li>
+      <li>
+        <a href="{% url 'shopapp:orders_list' %}">Orders</a>
+      </li>
+    </ul>
+  </div>
+
+{% endblock %}

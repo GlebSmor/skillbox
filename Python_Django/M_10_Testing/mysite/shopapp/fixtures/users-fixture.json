@@ -1,0 +1,29 @@
+[
+    {
+        "model": "myauth.profile",
+        "pk": 1,
+        "fields": {
+            "user": 5,
+            "bio": "",
+            "agreement_accepted": false
+        }
+    },
+    {
+        "model": "myauth.profile",
+        "pk": 2,
+        "fields": {
+            "user": 6,
+            "bio": "",
+            "agreement_accepted": false
+        }
+    },
+    {
+        "model": "myauth.profile",
+        "pk": 3,
+        "fields": {
+            "user": 7,
+            "bio": "",
+            "agreement_accepted": false
+        }
+    }
+]
