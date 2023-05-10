@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-06 20:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: myauth/views.py:101
+msgid "Hello world!"
+msgstr "Привет мир!"
+
+#: myauth/views.py:107
+#, python-brace-format
+msgid "one product"
+msgid_plural "{count} products"
+msgstr[0] "{count} товар"
+msgstr[1] "{count} товара"
+msgstr[2] "{count} товаров"
+
+#: mysite/settings.py:128
+msgid "English"
+msgstr ""
+
+#: mysite/settings.py:129
+msgid "Russian"
+msgstr "Русский"
+
+#: mysite/settings.py:130
+msgid "French"
+msgstr "Français"
+
+#: shopapp/models.py:9 shopapp/templates/shopapp/products-details.html:6
+#: shopapp/templates/shopapp/products-details.html:11
+msgid "Product"
+msgstr "Товар"
+
+#: shopapp/models.py:10 shopapp/templates/shopapp/products-list.html:10
+msgid "Products"
+msgstr "Товары"
+
+#: shopapp/models.py:25
+msgid "Order"
+msgstr "Заказ"
+
+#: shopapp/models.py:26
+msgid "Orders"
+msgstr "Заказы"
+
+#: shopapp/templates/shopapp/products-details.html:14
+#, python-format
+
+msgid ""
+"\n"
+"    Length of description only one symbol.\n"
+"    "
+msgid_plural ""
+"\n"
+"    Length of description are %(des_count)s symbols.\n"
+"    "
+msgstr[0] ""
+"\n"
+"    Длина описания %(des_count)s символ.\n"
+"    "
+msgstr[1] ""
+"\n"
+"    Длина описания %(des_count)s символа.\n"
+"    "
+msgstr[2] ""
+"\n"
+"    Длина описания %(des_count)s символов.\n"
+"    "
+
+#: shopapp/templates/shopapp/products-details.html:19
+msgid "Description"
+msgstr "Описание"
+
+#: shopapp/templates/shopapp/products-details.html:20
+#: shopapp/templates/shopapp/products-list.html:24
+msgid "Price"
+msgstr "Цена"
+
+#: shopapp/templates/shopapp/products-details.html:21
+#: shopapp/templates/shopapp/products-list.html:26
+msgid "Discount"
+msgstr "Скидка"
+
+#: shopapp/templates/shopapp/products-details.html:22
+msgid "Archived"
+msgstr "Архивирован"
+
+#: shopapp/templates/shopapp/products-details.html:31
+#, python-format
+msgid ""
+"  \n"
+"  <div>\n"
+"    <a href=\"%(product_update_url)s\">Update product</a>\n"
+"  </div>\n"
+"  <div>\n"
+"    <a href=\"%(product_delete_url)s\">Archive product</a>\n"
+"  </div>\n"
+"  <div>\n"
+"    <a href=\"%(products_list_url)s\">Back to products list</a>\n"
+"  </div>\n"
+"  "
+msgstr ""
+"  \n"
+"  <div>\n"
+"    <a href=\"%(product_update_url)s\">Обновить товар</a>\n"
+"  </div>\n"
+"  <div>\n"
+"    <a href=\"%(product_delete_url)s\">Архивировать товар</a>\n"
+"  </div>\n"
+"  <div>\n"
+"    <a href=\"%(products_list_url)s\">Вернуться к списку товаров</a>\n"
+"  </div>\n"
+"  "
+
+#: shopapp/templates/shopapp/products-list.html:6
+#, fuzzy
+#| msgid "Products"
+msgid "Products list"
+msgstr "Товары"
+
+#: shopapp/templates/shopapp/products-list.html:13
+#, python-format
+msgid ""
+"\n"
+"    There is only one product.\n"
+"    "
+msgid_plural ""
+"\n"
+"    There are %(pr_count)s products.\n"
+"    "
+msgstr[0] ""
+"\n"
+"    Доступен %(pr_count)s товар.\n"
+"    "
+msgstr[1] ""
+"\n"
+"    Доступно %(pr_count)s товара.\n"
+"    "
+msgstr[2] ""
+"\n"
+"    Доступно %(pr_count)s товаров.\n"
+"    "
+
+#: shopapp/templates/shopapp/products-list.html:23
+msgctxt "product name"
+msgid "Name"
+msgstr "Название"
+
+#: shopapp/templates/shopapp/products-list.html:25
+msgid "no discount"
+msgstr "скидки нет"
+
+#: shopapp/templates/shopapp/products-list.html:34
+msgid "Create a new product"
+msgstr "Создать новый товар"
+
+#: shopapp/templates/shopapp/products-list.html:39
+#, python-format
+msgid ""
+"\n"
+"    <h3>No products yet</h3>\n"
+"    <a href=\"%(create_product_url)s\"\n"
+"    >Create a new one</a>\n"
+"    \n"
+"    "
+msgstr ""
+"\n"
+"    <h3>Товаров пока нет</h3>\n"
+"    <a href=\"%(create_product_url)s\"\n"
+"    >Создать новый</a>\n"
+"    "
+
+#~ msgid "No products yet"
+#~ msgstr "Товаров пока нет"
