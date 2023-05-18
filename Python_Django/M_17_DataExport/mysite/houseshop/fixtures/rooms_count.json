@@ -1,0 +1,44 @@
+[
+    {
+        "model": "houseshop.roomscount",
+        "pk": 1,
+        "fields": {
+            "count": 1
+        }
+    },
+    {
+        "model": "houseshop.roomscount",
+        "pk": 2,
+        "fields": {
+            "count": 2
+        }
+    },
+    {
+        "model": "houseshop.roomscount",
+        "pk": 3,
+        "fields": {
+            "count": 3
+        }
+    },
+    {
+        "model": "houseshop.roomscount",
+        "pk": 4,
+        "fields": {
+            "count": 4
+        }
+    },
+    {
+        "model": "houseshop.roomscount",
+        "pk": 5,
+        "fields": {
+            "count": 5
+        }
+    },
+    {
+        "model": "houseshop.roomscount",
+        "pk": 6,
+        "fields": {
+            "count": 6
+        }
+    }
+]

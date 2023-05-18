@@ -1,0 +1,23 @@
+[
+    {
+        "model": "houseshop.housetype",
+        "pk": 1,
+        "fields": {
+            "name": "Apartment"
+        }
+    },
+    {
+        "model": "houseshop.housetype",
+        "pk": 2,
+        "fields": {
+            "name": "Townhouse"
+        }
+    },
+    {
+        "model": "houseshop.housetype",
+        "pk": 3,
+        "fields": {
+            "name": "Villa"
+        }
+    }
+]

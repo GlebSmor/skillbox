@@ -1,0 +1,23 @@
+{% extends 'houseshop/base.html' %}
+
+{% block title %}
+    Contacts
+{% endblock  %}
+
+{% block body %}
+<h1>Our contacts</h1>
+<div>
+    <p>Thank you for considering our real estate services. We would love to hear from you and assist with any of your real estate needs.</p>
+    <p>Please use the following contact information to get in touch with our team.</p> 
+    <br>
+    <p>Phone: +17991234475</p> 
+    <p>Email: workmail@best-houses.com</p> 
+    <p>Address: 2365 Atlantic Ave, Brooklyn, NY, USA</p> 
+    <br>
+    <p>Our team is dedicated to providing exceptional service and support to help you reach your real estate goals.</p> 
+    <p>Whether you are looking to buy, sell, or invest in a property, we are here to guide you through the process with expert knowledge and experience.</p> 
+    <p>Don't hesitate to contact us today to learn more about how we can help you achieve your real estate aspirations.</p> 
+    <p>We look forward to hearing from you soon.
+</div>
+<a href={% url  "houseshop:home" %}>Home page</a>
+{% endblock  %}

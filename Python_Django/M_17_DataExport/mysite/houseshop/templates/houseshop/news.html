@@ -1,0 +1,21 @@
+{% extends 'houseshop/base.html' %}
+
+{% block title %}
+    News
+{% endblock  %}
+
+{% block body %}
+    {% if news %}
+        <h1>News:</h1>
+        {% for n in news %}
+        <div>
+            <h2><a href={% url  "houseshop:news_detail" pk=n.pk %}>{{ n.title }}</a></h2>
+            <p>Publication date: {{ n.pub_date }}</p>
+        </div>
+        {% endfor %}
+    {% else %}
+        <h1>No news yet</h1>
+    {% endif %}
+<div><a href={% url  "houseshop:home" %}>Home page</a></div>
+
+{% endblock  %}

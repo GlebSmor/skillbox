@@ -1,0 +1,14 @@
+{% extends 'houseshop/base.html' %}
+
+{% block title %}
+    {{ news.title }}
+{% endblock  %}
+
+{% block body %}
+<h1>{{ news.title }}</h1>
+<div>
+    <pre style="font-size: 16px">{{ news.text }}</pre>
+    <p>Publication date: {{ news.pub_date }}</p>
+</div>
+<div><a href={% url  "houseshop:news" %}>Back to news</a></div>
+{% endblock  %}

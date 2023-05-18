@@ -1,0 +1,14 @@
+{% extends 'houseshop/base.html' %}
+
+{% block title %}
+    Home page
+{% endblock  %}
+
+{% block body %}
+<h1>Hello from best-houses.com!</h1>
+<h2><a href={% url "houseshop:sale_list" %}>Houses for sale</a></h2>
+<h2><a href={% url "houseshop:about_us" %}>About us</a></h2>
+<h2><a href={% url  "houseshop:contacts" %}>Contacts</a></h2>
+<h2><a href={% url  "houseshop:news" %}>News</a></h2>
+
+{% endblock  %}

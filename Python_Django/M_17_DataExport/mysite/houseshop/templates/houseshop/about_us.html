@@ -1,0 +1,20 @@
+{% extends 'houseshop/base.html' %}
+
+{% block title %}
+    About us
+{% endblock  %}
+{% block body %}
+<div> 
+    <p>Welcome to our real estate website! We are a team of experienced and dedicated professionals who are passionate about helping our clients find their dream homes.</p> 
+    <p>Whether you are looking to buy, sell, or rent a property, we are here to provide you with expert advice and exceptional service.</p>
+    
+    <br>
+    <p>Our mission is to help you navigate the complex real estate market with ease and confidence.</p> 
+    <p>We understand that buying or selling a home can be a stressful and emotional experience, and we are committed to making the process as smooth and stress-free as possible.</p>
+    
+    <br>
+    <p>With our extensive knowledge of the local market and our network of industry connections, we are confident that we can help you achieve your real estate goals.</p>
+    <p>So why wait? <a href={% url  "houseshop:contacts" %}>Contact</a> us today to learn more about how we can help you buy or sell your next home.</p> 
+</div>
+<a href={% url  "houseshop:home" %}>Home page</a>
+{% endblock  %}

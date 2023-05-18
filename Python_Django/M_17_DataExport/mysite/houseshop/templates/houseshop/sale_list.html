@@ -1,0 +1,25 @@
+{% extends 'houseshop/base.html' %}
+
+{% block title %}
+    Houses for sale
+{% endblock  %}
+
+{% block body %}
+    {% if houses %}
+        <h1>Houses for sale:</h1>
+        {% for house in houses %}
+        <div>
+            <h2>House №{{ house.pk }}</h2>
+            <p>Name: {{ house.name }}</p>
+            <p>Address: {{ house.address }}</p>
+            <p>Type: {{ house.type.name }}</p>
+            <p>Number of rooms: {{ house.rooms.count }}</p>
+            <p>Date of construction: {{ house.date_of_const }}</p>
+            <p><h3>Price: {{ house.price }}$</h3></p>
+        </div>
+        {% endfor %}
+    {% else %}
+        No houses for sale yet
+    {% endif %}
+<a href={% url  "houseshop:home" %}>Home page</a>
+{% endblock  %}
