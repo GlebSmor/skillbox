@@ -1,0 +1,57 @@
+[
+    {
+        "model": "shop.product",
+        "pk": 1,
+        "fields": {
+            "name": "Keyboard",
+            "description": "Best keyboard of 2023",
+            "price": "89.00",
+            "discount": 5,
+            "created_at": "2023-05-15T15:02:00.859Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 2,
+        "fields": {
+            "name": "Mouse",
+            "description": "Best mouse of 2023",
+            "price": "45.00",
+            "discount": 10,
+            "created_at": "2023-05-15T15:02:49.179Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 3,
+        "fields": {
+            "name": "Desktop",
+            "description": "Best desktop of 2023",
+            "price": "3999.00",
+            "discount": 3,
+            "created_at": "2023-05-15T15:03:09.889Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 4,
+        "fields": {
+            "name": "Laptop",
+            "description": "Best laptop of 2023",
+            "price": "2499.00",
+            "discount": 7,
+            "created_at": "2023-05-15T15:03:32.756Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": 5,
+        "fields": {
+            "name": "Smartphone",
+            "description": "Best smartphone of 2023",
+            "price": "999.00",
+            "discount": 12,
+            "created_at": "2023-05-15T15:03:59.615Z"
+        }
+    }
+]

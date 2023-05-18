@@ -1,0 +1,40 @@
+{% extends 'bonuses/base.html' %}
+
+{% load i18n %}
+
+{% block title %}
+{% translate "Personal account" %}
+{% endblock  %}
+
+{% block body %}
+<h1>{% translate "Personal account" %}</h1>
+<div>
+    <p>{% translate "Name" %}: {{ user.username }}</p>
+    <p>{% translate "Bio" %}: {{ user.profile.bio }}</p>
+    <p>{% translate "Balance" %}: {{ user.profile.balance }}</p>
+    {% if orders %}
+    {% load cache %}
+    {%cache 500 orders%}
+    <p>
+        {% translate "Orders" %}:
+        <ul>
+            {% for ord in orders %}
+            <li><a href="{% url 'shop:order_detail' pk=ord.pk%}">{% translate "Order" %}№{{ ord.pk }}</a></li>
+            {% endfor %}
+        </ul>
+    </p>
+    {% endcache %}
+    {% endif %}
+    <p>
+        {% translate "Promotions for you" %}:
+        <ul>
+            {% for pr in user.profile.promotions.all %}
+            <li>{{ pr.title }}</li>
+            {% endfor %}
+        </ul>
+    </p>
+</div>
+<p><a href={% url 'shop:home'%}>{% translate "Back to home page" %}</a></p>
+<p><a href={% url 'bonuses:balance' pk=user.profile.id %}>{% translate "Top up balance" %}</a></p>
+<p><a href={% url 'auth:logout'%}>{% translate "Logout" %}</a></p>
+{% endblock  %}

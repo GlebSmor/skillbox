@@ -1,0 +1,16 @@
+{% extends 'bonuses/base.html' %}
+
+{% load i18n %}
+
+{% block title %}
+{% translate "Register" %}
+{% endblock %}
+
+{% block body %}
+  <h1>{% translate "Register" %}</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Register">
+  </form>
+{% endblock %}

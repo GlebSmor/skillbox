@@ -1,0 +1,21 @@
+{% extends 'bonuses/base.html' %}
+
+{% load i18n %}
+
+{% block title %}
+{% translate "Top up balance" %}
+{% endblock %}
+
+{% block body %}
+  <h1>{% translate "Top up balance" %}</h1>
+  <div>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit">{% translate "Top up" %}</button>
+    </form>
+  </div>
+  <div>
+    <a href="{% url 'bonuses:account' %}">{% translate "Back to account" %}</a>
+  </div>
+{% endblock %}

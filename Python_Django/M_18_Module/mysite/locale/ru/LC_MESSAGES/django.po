@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-15 19:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: bonuses/models.py:14
+msgid "Promotion"
+msgstr "Акция"
+
+#: bonuses/models.py:15
+msgid "Promotions"
+msgstr "Акции"
+
+#: bonuses/models.py:30
+msgid "Profile"
+msgstr "Профиль"
+
+#: bonuses/models.py:31
+msgid "Profiles"
+msgstr "Профили"
+
+#: bonuses/templates/bonuses/account.html:6
+#: bonuses/templates/bonuses/account.html:10
+msgid "Personal account"
+msgstr "Личный кабинет"
+
+#: bonuses/templates/bonuses/account.html:12
+#: shop/templates/shop/products-list.html:16
+msgid "Name"
+msgstr "Название"
+
+#: bonuses/templates/bonuses/account.html:13
+msgid "Bio"
+msgstr "Биография"
+
+#: bonuses/templates/bonuses/account.html:14
+msgid "Balance"
+msgstr "Баланс"
+
+#: bonuses/templates/bonuses/account.html:19 shop/models.py:25
+msgid "Orders"
+msgstr "Заказы"
+
+#: bonuses/templates/bonuses/account.html:22 shop/models.py:24
+#: shop/templates/shop/order-detail.html:6
+#: shop/templates/shop/order-detail.html:10
+msgid "Order"
+msgstr "Заказ"
+
+#: bonuses/templates/bonuses/account.html:29
+msgid "Promotions for you"
+msgstr "Акции для вас"
+
+#: bonuses/templates/bonuses/account.html:37
+#: shop/templates/shop/products-list.html:27
+msgid "Back to home page"
+msgstr "Обратно на домашнию страницу"
+
+#: bonuses/templates/bonuses/account.html:38
+#: bonuses/templates/bonuses/profile_update.html:6
+#: bonuses/templates/bonuses/profile_update.html:10
+msgid "Top up balance"
+msgstr "Пополнить баланс"
+
+#: bonuses/templates/bonuses/account.html:39
+msgid "Logout"
+msgstr "Выйти"
+
+#: bonuses/templates/bonuses/login.html:6
+#: bonuses/templates/bonuses/login.html:16
+msgid "Login"
+msgstr "Войти"
+
+#: bonuses/templates/bonuses/profile_update.html:15
+msgid "Top up"
+msgstr "Пополнить"
+
+#: bonuses/templates/bonuses/profile_update.html:19
+msgid "Back to account"
+msgstr "Обратно в личный кабинет"
+
+#: bonuses/templates/bonuses/register.html:6
+#: bonuses/templates/bonuses/register.html:10
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: mysite/settings.py:137
+msgid "English"
+msgstr "Английский"
+
+#: mysite/settings.py:138
+msgid "Russian"
+msgstr "Русский"
+
+#: shop/forms.py:10
+msgid "user"
+msgstr "Пользователь"
+
+#: shop/forms.py:10
+
+#| msgid "Products"
+msgid "products"
+msgstr "Товары"
+
+#: shop/forms.py:10
+
+#| msgid "Delivery address"
+msgid "dilivery_adress"
+msgstr "Адрес доставки"
+
+#: shop/forms.py:10
+
+#| msgid "Promocode"
+msgid "promocode"
+msgstr "Промокод"
+
+#: shop/forms.py:15
+
+#| msgid "Balance"
+msgid "balance"
+msgstr "Баланс"
+
+#: shop/models.py:9
+msgid "Product"
+msgstr "Товар"
+
+#: shop/models.py:10 shop/templates/shop/products-list.html:12
+msgid "Products"
+msgstr "Товары"
+
+#: shop/templates/shop/home.html:6
+msgid "Home"
+msgstr "Домашняя страница"
+
+#: shop/templates/shop/home.html:10
+msgid "Home page"
+msgstr "Домашняя страница"
+
+#: shop/templates/shop/home.html:11 shop/templates/shop/products-list.html:6
+msgid "Shop"
+msgstr "Магазин"
+
+#: shop/templates/shop/home.html:12
+msgid "Account"
+msgstr "Личный кабинет"
+
+#: shop/templates/shop/order-detail.html:12
+msgid "Ordered by"
+msgstr "Заказан сделан"
+
+#: shop/templates/shop/order-detail.html:13
+msgid "Promocode"
+msgstr "Промокод"
+
+#: shop/templates/shop/order-detail.html:14
+msgid "Delivery address"
+msgstr "Адрес доставки"
+
+#: shop/templates/shop/order-detail.html:16
+msgid "Product in order"
+msgstr "Товары в заказе"
+
+#: shop/templates/shop/order-detail.html:27
+msgid "Back to acoount"
+msgstr "Обратно в личный кабинет"
+
+#: shop/templates/shop/order_form.html:6
+#: shop/templates/shop/products-list.html:26
+msgid "Create order"
+msgstr "Создать заказ"
+
+#: shop/templates/shop/order_form.html:10
+msgid "Create a new order"
+msgstr "Создать новый заказ"
+
+#: shop/templates/shop/order_form.html:14
+msgid "Create"
+msgstr "Создать"
+
+#: shop/templates/shop/order_form.html:18
+msgid "Back to products list"
+msgstr "Обратно к списку товаров"
+
+#: shop/templates/shop/product-detail.html:7
+msgid "{{ product.name }}"
+msgstr ""
+
+#: shop/templates/shop/product-detail.html:13
+msgid "Description"
+msgstr "Описание"
+
+#: shop/templates/shop/product-detail.html:14
+#: shop/templates/shop/products-list.html:17
+msgid "Price"
+msgstr "Цена"
+
+#: shop/templates/shop/product-detail.html:15
+#: shop/templates/shop/products-list.html:18
+msgid "Discount"
+msgstr "Скидка"
+
+#: shop/templates/shop/product-detail.html:17
+msgid "Back to products"
+msgstr "Обратно к списку продуктов"
+
+#: shop/templates/shop/products-list.html:23
+msgid "No products yet"
+msgstr "Товаров пока нет"

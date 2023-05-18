@@ -1,0 +1,30 @@
+[
+    {
+        "model": "shop.order",
+        "pk": 1,
+        "fields": {
+            "delivery_address": "ul Pushkina, d.6",
+            "promocode": "sales123",
+            "created_at": "2023-05-15T15:39:02.225Z",
+            "user": 2,
+            "products": [
+                2,
+                1
+            ]
+        }
+    },
+    {
+        "model": "shop.order",
+        "pk": 2,
+        "fields": {
+            "delivery_address": "Red Square, d.8",
+            "promocode": "saaaale",
+            "created_at": "2023-05-15T16:58:50.396Z",
+            "user": 2,
+            "products": [
+                2,
+                1
+            ]
+        }
+    }
+]

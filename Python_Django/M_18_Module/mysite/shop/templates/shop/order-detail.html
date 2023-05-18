@@ -1,0 +1,29 @@
+{% extends 'shop/base.html' %}
+
+{% load i18n %}
+
+{% block title %}
+{% translate "Order" %} №{{ object.pk }} details
+{% endblock %}
+
+{% block body %}
+  <h1>{% translate "Order" %} №{{ object.pk }}</h1>
+  <div>
+    <p>{% translate "Ordered by" %} {% firstof object.user.first_name object.user.username %}</p>
+    <p>{% translate "Promocode" %}: <code>{{ object.promocode }}</code></p>
+    <p>{% translate "Delivery address" %}: {{ object.delivery_address }}</p>
+    <div>
+      {% translate "Product in order" %}:
+      <ul>
+        {% for product in object.products.all %}
+          <li>{{ product.name }} ${{ product.price }}</li>
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <a href="{% url 'auth:account' %}">{% translate "Back to acoount" %}</a>
+  </div>
+{% endblock %}

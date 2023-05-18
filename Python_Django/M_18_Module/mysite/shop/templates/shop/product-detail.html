@@ -1,0 +1,18 @@
+{% extends 'shop/base.html' %}
+
+
+{% load i18n %}
+
+{% block title %}
+{% translate "{{ product.name }}" %}
+{% endblock %}
+
+{% block body %}
+  <h1>{{ product.name }}</h1>
+  <div>
+        <p>{% translate "Description" %}: {{ product.description }}</p>
+        <p>{% translate "Price" %}: {{ product.price }}$</p>
+        <p>{% translate "Discount" %}: {{ product.discount }}%</p>
+  </div>
+  <a href="{% url 'shop:products_list' %}">{% translate "Back to products" %}</a>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'shop/base.html' %}
+
+{% load i18n %}
+
+{% block title %}
+{% translate "Home" %}
+{% endblock  %}
+
+{% block body %}
+<h1>{% translate "Home page" %}</h1>
+<h2><a href={% url 'shop:products_list'%}>{% translate "Shop" %}</a></h2>
+<h2><a href={% url 'auth:account'%}>{% translate "Account" %}</a></h2>
+{% endblock  %}

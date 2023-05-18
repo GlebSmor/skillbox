@@ -1,0 +1,28 @@
+{% extends 'shop/base.html' %}
+
+{% load i18n %}
+
+{% block title %}
+{% translate "Shop" %}
+{% endblock  %}
+
+{% block body %}
+<div>
+    {% if products %}
+        <h1>{% translate "Products" %}:</h1>
+        <ul>
+        {% for pr in products %}
+        <li>
+            <p>{% translate "Name" %}: <a href={% url 'shop:product_detail' pk=pr.pk %}>{{ pr.name }}</a></p>
+            <p>{% translate "Price" %}: {{ pr.price }}$</p>
+            <p>{% translate "Discount" %}: {{ pr.discount }}%</p>
+        </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <h1>{% translate "No products yet" %}</h1>
+    {% endif %}
+</div>
+<p></p><a href="{% url 'shop:order_create' %}">{% translate "Create order" %}</a></p>
+<p><a href={% url 'shop:home'%}>{% translate "Back to home page" %}</a></p>
+{% endblock  %}
